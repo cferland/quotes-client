@@ -11,6 +11,9 @@ import CreateQuote from './components/CreateQuote';
 function App() {
   return (
     <div className="App">
+      <nav>
+        
+      </nav>
       <Route exact path="/" component={Home} />
       <Route exact path="/speakers" component={Speakers} />
       <Route exact path="/speakers/:id" component={Quotes} />
